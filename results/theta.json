@@ -1,0 +1,67 @@
+{
+ "latency_theta": {
+  "t0": 0.0004646925878750292,
+  "peak_flops": 4457359478533.933,
+  "bandwidth": 87057801695.49333
+ },
+ "energy_theta": {
+  "p_static": 50.8015749052782,
+  "e_flop": 6.0018407116814024e-12,
+  "e_byte": 0.0
+ },
+ "memory": {
+  "runtime_bytes_measured": 9568256,
+  "note": "память не калибруется; runtime_bytes измерен напрямую (рабочая область cuBLAS)"
+ },
+ "split": {
+  "train": "базовая сетка 7 x 9",
+  "validation": "конфигурации со случайными S или B",
+  "n_train": 63,
+  "n_validation": 69,
+  "n_oom": 0
+ },
+ "latency_train": {
+  "mape_pct": 9.452565030228612,
+  "max_abs_err_pct": 45.527893178091425,
+  "median_abs_err_pct": 6.327640138206658,
+  "n": 63
+ },
+ "latency_validation": {
+  "mape_pct": 7.843727324161448,
+  "max_abs_err_pct": 27.06095068423715,
+  "median_abs_err_pct": 5.52709032729608,
+  "n": 69
+ },
+ "memory_all": {
+  "mape_pct": 21.753594154048315,
+  "max_abs_err_pct": 52.30876594424845,
+  "median_abs_err_pct": 24.68494134478862,
+  "n": 132
+ },
+ "memory_max_abs_err_mib": 776.939453125,
+ "memory_exact": {
+  "n_exact": 38,
+  "n_total": 132,
+  "n_with_cudnn_workspace": 94,
+  "conv2_workspace_bytes_per_BS2_min": 44.54552120249297,
+  "conv2_workspace_bytes_per_BS2_median": 68.0,
+  "conv2_workspace_bytes_per_BS2_max": 676.0
+ },
+ "latency_bounds": {
+  "gpu": "Tesla T4",
+  "p_max_flops": 8140000000000.0,
+  "bw_max_bytes_per_s": 320000000000.0
+ },
+ "energy_train": {
+  "mape_pct": 9.19866886698043,
+  "max_abs_err_pct": 36.01807734737936,
+  "median_abs_err_pct": 7.138804649201158,
+  "n": 63
+ },
+ "energy_validation": {
+  "mape_pct": 8.820830015951175,
+  "max_abs_err_pct": 32.8801337989757,
+  "median_abs_err_pct": 6.752206430735108,
+  "n": 69
+ }
+}

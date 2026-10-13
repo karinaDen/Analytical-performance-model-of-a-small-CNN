@@ -1,0 +1,26 @@
+[
+ {
+  "S": 32,
+  "B": 1,
+  "torch_flops": 18450432,
+  "formula_flops": 18450432.0
+ },
+ {
+  "S": 64,
+  "B": 3,
+  "torch_flops": 218585088,
+  "formula_flops": 218585088.0
+ },
+ {
+  "S": 224,
+  "B": 8,
+  "torch_flops": 7112245248,
+  "formula_flops": 7112245248.0
+ },
+ {
+  "S": 512,
+  "B": 2,
+  "torch_flops": 9286815744,
+  "formula_flops": 9286815744.0
+ }
+]
